@@ -2,21 +2,21 @@
 <html manifest="manifest.appcache">
 
   <head>
-  	<link rel="stylesheet" type="text/css" href="style/hypno.css">
-  	<script type="text/javascript" src="js/hypno.js"utf-8"></script>
     <meta http-equiv="pragma" content="no-cache">
-    <title>HypnoApp</title>
-
-
-
+  	<link rel="stylesheet" type="text/css" href="style/hypno.css">
+  	<script type="text/javascript" src="js/hypno.js"></script>
+    <title>Hypnotization Application</title>
   </head>
 
-    <body onload="showContent();">
-<!-- "Title Kevin MacLeod (incompetech.com) Licensed under Creative Commons "Attribution 3.0" http://creativecommons.org/licenses/by/3.0/"*/ --> 
-	<embed src="The House of Leaves.ogg" autostart=true width=1 height=1 id="sound1">
-	<img id="spiral" class="spiral" src='spiral.jpg' style="display:none">
-	<img id="button" src='button.png' onclick="appStart()" style="display:none">
-	
+  <body onload="showContent();">
+    <div id="wrapper">
+	    <img id="spiral" class="spiral" src="resources/images/spiral.jpg" alt="Can not load resources" style="display:none">
+	    <img id="button" src="resources/images/button.png" alt="" style="display:none">
+	  </div>
+	  <!-- "Title Kevin MacLeod (incompetech.com) Licensed under Creative Commons "Attribution 3.0" http://creativecommons.org/licenses/by/3.0/"*/ --> 
+    <audio id="sound">
+      <source src="resources/audio/the-house-of-leaves.ogg" type="audio/ogg" />
+    </audio>
   </body>
 
 </html>

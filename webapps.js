@@ -128,6 +128,13 @@ var apps = {
     "installTime": 132333986000,
     "manifestURL": "http://gallery.localhost.org:8080/manifest.webapp"
   },
+  "hypno": {
+    "origin": rootPath.replace('%%%', 'hypno'),
+    "installOrigin": "http://hypno.localhost.org:8080",
+    "receipt": null,
+    "installTime": 132333986000,
+    "manifestURL": "http://hypno.localhost.org:8080/manifest.webapp"
+  },
   "market": {
     "origin": rootPath.replace('%%%', 'market'),
     "installOrigin": "http://market.localhost.org:8080",

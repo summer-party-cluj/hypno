@@ -1,9 +1,9 @@
 {
-  "name": "Template",
-  "description": "Web app template",
+  "name": "Hypno",
+  "description": "Hypno",
   "launch_path": "/",
   "developer": {
-    "name": "The Gaia Team",
+    "name": "Code Party Cluj",
     "url": "https://github.com/mozilla-b2g/gaia"
   },
   "permissions": [
@@ -11,52 +11,52 @@
   ],
   "locales": {
     "ar": {
-      "name": "Template",
-      "description": "Web app template"
+      "name": "Hypno",
+      "description": "Hypnotization Application"
     },
     "de": {
-      "name": "Template",
-      "description": "Web app template"
+      "name": "Hypno",
+      "description": "Hypnotization Application"
     },
     "el": {
-      "name": "Template",
-      "description": "Web app template"
+      "name": "Hypno",
+      "description": "Hypnotization Application"
     },
     "en-US": {
-      "name": "Template",
-      "description": "Web app template"
+      "name": "Hypno",
+      "description": "Hypnotization Application"
     },
     "es": {
-      "name": "Template",
-      "description": "Web app template"
+      "name": "Hypno",
+      "description": "Hypnotization Application"
     },
     "fr": {
-      "name": "Template",
-      "description": "Web app template"
+      "name": "Hypno",
+      "description": "Hypnotization Application"
     },
     "it": {
-      "name": "Template",
-      "description": "Web app template"
+      "name": "Hypno",
+      "description": "Hypnotization Application"
     },
     "pt-BR": {
-      "name": "Template",
-      "description": "Web app template"
+      "name": "Hypno",
+      "description": "Hypnotization Application"
     },
     "ru": {
-      "name": "Template",
-      "description": "Web app template"
+      "name": "Hypno",
+      "description": "Hypnotization Application"
     },
     "tr": {
-      "name": "Template",
-      "description": "Web app template"
+      "name": "Hypno",
+      "description": "Hypnotization Application"
     },
     "zh-TW": {
-      "name": "Template",
-      "description": "Web app template"
+      "name": "Hypno",
+      "description": "Hypnotization Application"
     }
   },
   "default_locale": "en-US",
   "icons": {
-    "128": "/style/icons/Blank.png"
+    "128": "/resources/images/button.png"
   }
 }

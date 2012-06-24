@@ -1,27 +1,20 @@
-function appStart(){
-	var spiral = document.getElementById("spiral");
-	
-	document.getElementById("button").style.display = "none";
-	
-	//var cName = spiral.style.className;
-	//document.write(cName.style);
-	spiral.className = spiral.className + " rotate";
+function appStart() {
+  var button = document.getElementById('button');
+  var spiral = document.getElementById('spiral');
+  var sound = document.getElementById('sound');
+  
+  sound.play();
+  sound.loop = true;
+	button.style.display = 'none';
+	spiral.className = spiral.className + ' rotate';
 }
 
-function showContent(){
-	document.getElementById("spiral").style.display = "block";
-	document.getElementById("button").style.display = "block";
+function showContent() {
+  var button = document.getElementById('button');
+  var spiral = document.getElementById('spiral');
+  
+  button.addEventListener('click', appStart);
+	spiral.style.display = 'block';
+	button.style.display = 'block';
 }
 
-function spiralHide(){
-	
-	document.getElementById("spiral").style.visibility="hidden";
-	
-}
-
-
-function spiralShow(){
-	
-	document.getElementById("spiral").style.visibility="visible";
-	
-}

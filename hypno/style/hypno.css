@@ -1,44 +1,47 @@
-#spiral{
-/*	-moz-animation: lrotate 1s infinite;
-	-moz-animation-direction: normal;*/
-position:fixed;
-height:640px;
-width:640px;
-left:-160px;
-top:-80px;
-z-index:-1;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-
-@-moz-keyframes lrotate /* Firefox */
-{
-0%   {-moz-transform: rotate(0deg);}
-10%  {-moz-transform: rotate(36deg);}
-20%  {-moz-transform: rotate(72deg);}
-30%  {-moz-transform: rotate(108deg);}
-40%  {-moz-transform: rotate(144deg);}
-50%  {-moz-transform: rotate(180deg);}
-60%  {-moz-transform: rotate(216deg);}
-70%  {-moz-transform: rotate(252deg);}
-80%  {-moz-transform: rotate(288deg);}
-90%  {-moz-transform: rotate(324deg);}
-100% {-moz-transform: rotate(360deg);}
+#spiral {
+  position:relative;
+  height:640px;
+  width:640px;
+  left:-170px;
+  top:-90px;
+  z-index:-1;
 }
 
-#button{
-position:absolute;
-left:103px;
-top:183px;
-z-index:1;
-//268
-height:114px;
-width:114px;
-
+@-moz-keyframes lrotate {
+  0%   {-moz-transform: rotate(0deg);}
+  10%  {-moz-transform: rotate(36deg);}
+  20%  {-moz-transform: rotate(72deg);}
+  30%  {-moz-transform: rotate(108deg);}
+  40%  {-moz-transform: rotate(144deg);}
+  50%  {-moz-transform: rotate(180deg);}
+  60%  {-moz-transform: rotate(216deg);}
+  70%  {-moz-transform: rotate(252deg);}
+  80%  {-moz-transform: rotate(288deg);}
+  90%  {-moz-transform: rotate(324deg);}
+  100% {-moz-transform: rotate(360deg);}
 }
 
-.rotate{
-	
--moz-animation: lrotate 1s infinite;
--moz-animation-direction: normal;
-	
+#button {
+  position:absolute;
+  left:95px;
+  top:172px;
+  z-index:1;
+  height:114px;
+  width:114px;
+}
+
+.rotate {
+  -moz-animation: lrotate 1s infinite;
+  -moz-animation-direction: normal;
+}
+
+#wrapper {
+  width: 320px;
+  height: 460px;
+  overflow: hidden;
 }
